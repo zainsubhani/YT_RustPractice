@@ -1,8 +1,24 @@
 mod print;
 mod var;
 mod typeexcercise;
+mod strings;
+mod tuples;
+mod arrays;
+mod vector;
 fn main() {
-    println!("Hello, world!");
+    println!("Hello, world! from main");
+    vector::loopmutatblevalue();
+
+    vector::loop_vector();
+    vector::vector_excercise();
+
+    arrays::mutarrays_excercise();
+    arrays::arrays_excercise();
+
+    tuples::tuples_excercise();
+
+    strings::stringmutable();
+    strings::stringexcercise();
     typeexcercise::types();
     print::run();
     print::simple_case();
