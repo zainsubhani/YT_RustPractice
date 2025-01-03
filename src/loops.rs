@@ -27,10 +27,10 @@ pub fn while_excercise(){
     }
 }
 
-pub fn for_Loop(){
+pub fn for_loop(){
       let  count =10;
     for x in  0..count  {
-        if count %15 ==0{
+        if x %15 ==0{
             println!("fizzbuzz");
 
         }
