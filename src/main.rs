@@ -5,8 +5,16 @@ mod strings;
 mod tuples;
 mod arrays;
 mod vector;
+mod conditional;
+mod loops;
+mod function;
 fn main() {
     println!("Hello, world! from main");
+    function::function_excercise();
+    loops::for_Loop();
+    loops::while_excercise();
+    loops::loop_excercise();
+    conditional::condition_excercise();
     vector::loopmutatblevalue();
 
     vector::loop_vector();
