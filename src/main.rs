@@ -1,18 +1,23 @@
-mod print;
-mod var;
-mod typeexcercise;
-mod strings;
-mod tuples;
 mod arrays;
-mod vector;
+mod cli;
 mod conditional;
-mod loops;
+mod enums;
 mod function;
+mod loops;
 mod pointer_ref;
+mod print;
+mod strings;
 mod structs;
+mod tuples;
+mod typeexcercise;
+mod var;
+mod vector;
 fn main() {
     println!("Hello, world! from main");
-    structs::struct_excercise2(); 
+    cli::cli_excercise();
+    enums::enum_excercise();
+
+    structs::struct_excercise2();
     structs::tuple_struct();
     structs::struct_excercise();
     pointer_ref::pointer_vector2();
@@ -47,7 +52,4 @@ fn main() {
     var::variable();
     var::constant();
     var::multivalue();
-
-
 }
-
